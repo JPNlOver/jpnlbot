@@ -4,8 +4,8 @@
   "description": "jpnlbote",
   "main": "bot.js",
   "dependencies": {
-    "discord.js": "^11.2.1",
-    "npm": "^6.1.0"
+    "discord.js": "~11.2.1",
+    "npm": "~6.1.0"
   },
   "devDependencies": {},
   "scripts": {
