@@ -10,7 +10,7 @@
     "discord.js": "^11.2.1",
     "npm": "^6.1.0",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node bot.js",
  "test": "node bot.js"
   },
     }
