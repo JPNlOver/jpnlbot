@@ -1,4 +1,4 @@
-const botSettings = require("jpnlbot/app/botSettings.json");
+const botSettings = require("app/botSettings.json");
 const Discord = require("discord.js");
 const fs = require("fs");
 const bot = new Discord.Client({autoReconnect:true});
