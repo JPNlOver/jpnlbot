@@ -3,14 +3,15 @@
   "version": "0.0.1",
   "description": "JPN Bot",
   "main": "bot.js",
+  "author": "JPNlOver",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.6.1"
+    "discord.js": "^11.2.1",
+    "npm": "^6.1.0"
   "scripts": {
     "start": "node bot.js"
  "test": "node bot.js"
   },
-  "author": "JPNlOver",
-  "license": "ISC",
-  "dependencies": {
-    "discord.js": "^11.2.1",
-    "npm": "^6.1.0"
-  }
-}
+    }
+
