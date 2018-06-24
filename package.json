@@ -1,16 +1,36 @@
 {
-  "name": "jpnlbot",
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
   "version": "0.0.1",
-  "description": "jpnlbote",
-  "main": "bot.js",
-  "dependencies": {
-    "discord.js": "~11.2.1",
-    "npm": "~6.1.0"
-  },
-  "devDependencies": {},
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "server.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node server.js"
   },
-  "author": "jpnlover",
-  "license": "BSD-2-Clause"
+  "dependencies": {
+    "express": "^4.16.3",
+    "discord.js": "^11.3.2",
+    "npm": "^6.1.0",
+    "ytdl-core": "^0.20.4",
+    "ffmpeg-binaries": "^3.2.2",
+    "opusscript": "^0.0.6",
+    "request": "^2.87.0",
+    "fs": "^0.0.2",
+    "get-youtube-id": "^1.0.0",
+    "youtube-info": "^1.2.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
 }
