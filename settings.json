@@ -1,6 +1,8 @@
 {
     "yt_api_key": "AIzaSyCc7sNBLJnrG9axPItcE8g6XZdiso1Oic0",
 	"discord_token": "NDQ4ODU3ODcwNDI0MDgwMzk0.DecPGg.w49olUdZAi_ULZ0gYBdJID38GJk",
+	"discord_token2": "NDAyNDc5Mzk0MDkxOTU4Mjcy.DhAaHA.3Evv2as9nSb7duXIMLVEv9cR6SI",
 	"bot_controller": "role_id",
     "prefix": "<3"
+	
 }
