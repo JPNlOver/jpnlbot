@@ -4,20 +4,21 @@
   "description": "paetron",
   "main": "bot.js",
   "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.15",
     "discord.js": "^11.3.2",
     "ffmpeg-binaries": "^3.2.2-3",
+    "ffmpegsumo-binaries": "^0.14.6-win-ia32",
     "fs": "0.0.1-security",
     "get-youtube-id": "^1.0.0",
     "npm": "^6.1.0",
     "opusscript": "0.0.6",
     "request": "^2.87.0",
     "youtube-info": "^1.2.0",
-    "ffmpeg": "^0.0.4",
     "ytdl-core": "^0.20.4"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node server.js"
+    "start": "node bot.js"
   },
   "author": "jpnlover",
   "license": "BSD-2-Clause"
