@@ -2,7 +2,7 @@
   "name": "paetron",
   "version": "0.0.1",
   "description": "paetron",
-  "main": "bot.js",
+  "main": "server.js",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.0.15",
     "discord.js": "^11.3.2",
@@ -18,7 +18,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node bot.js"
+    "start": "node server.js"
   },
   "author": "jpnlover",
   "license": "BSD-2-Clause"
