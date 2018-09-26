@@ -1,25 +1,60 @@
 {
-  "name": "paetron",
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
   "version": "0.0.1",
-  "description": "paetron",
+  "description": "A simple Node app built on Express, instantly up and running.",
   "main": "server.js",
-  "dependencies": {
-    "@ffmpeg-installer/ffmpeg": "^1.0.15",
-    "discord.js": "^11.3.2",
-    "ffmpeg-binaries": "^3.2.2-3",
-    "ffmpegsumo-binaries": "^0.14.6-win-ia32",
-    "fs": "0.0.1-security",
-    "get-youtube-id": "^1.0.0",
-    "npm": "^6.1.0",
-    "opusscript": "0.0.6",
-    "request": "^2.87.0",
-    "youtube-info": "^1.2.0",
-    "ytdl-core": "^0.20.4"
-  },
-  "devDependencies": {},
   "scripts": {
     "start": "node server.js"
   },
-  "author": "jpnlover",
-  "license": "BSD-2-Clause"
+  "dependencies": {
+    "express": "^4.16.3",
+    "discord.js": "^11.3.2",
+    "npm": "^6.1.0",
+    "ytdl-core": "^0.20.4",
+    "ffmpeg-binaries": "^3.2.2",
+    "opusscript": "^0.0.6",
+    "request": "^2.87.0",
+    "fs": "^0.0.2",
+    "get-youtube-id": "^1.0.0",
+    "youtube-info": "^1.2.0",
+    "ffmpeg": "^0.0.4",
+    "quick.db": "^6.3.1",
+    "mysql": "^2.15.0",
+    "quick.hook": "^1.4.0",
+    "moment": "^2.22.2",
+    "common-tags": "^1.8.0",
+    "random-js": "^1.0.8",
+    "compare-size": "^3.0.0",
+    "url-content": "^1.0.3",
+    "remote-file-size": "^3.0.4",
+    "flood-protection": "^1.0.1",
+    "currency-formatter": "^1.4.3",
+    "highlight": "^0.2.4",
+    "highlight.js": "^9.12.0",
+    "jimp": "^0.3.7",
+    "iotools": "^1.0.1",
+    "image-downloader": "^3.4.1",
+    "path": "^0.12.7",
+    "fs-extra": "^7.0.0",
+    "moment-timezone": "^0.5.21",
+    "giphy-js-sdk-core": "^2.0.3",
+    "chance": "^1.0.16",
+    "discord.js-commando": "^0.10.0",
+    "got": "^9.1.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
 }
